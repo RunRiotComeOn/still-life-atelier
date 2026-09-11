@@ -62,3 +62,10 @@ dialog{border-radius:12px;border:1px solid #b7b9a7;padding:38px;width:calc(100% 
 @media(max-width:760px){#game-screen header{flex-wrap:nowrap;gap:8px}#game-screen .top-actions{gap:4px}#game-screen .brand{font-size:18px;gap:5px}#game-screen .brand-emblem{width:30px;height:30px}#game-screen .tools>div{gap:7px}#game-screen .tools button{font-size:13px;padding:8px 10px}#game-screen .canvas-caption{font-size:11px}}
 @media(max-width:500px){#game-screen .brand span{display:none}#game-screen .top-actions{flex:1;justify-content:flex-end}#game-screen .level-heading h2{font-size:20px}#game-screen .tools>div{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px}#game-screen .tools>div:not(:has(#flip:not([hidden]))){grid-template-columns:repeat(3,minmax(0,1fr))}#game-screen .tools button{width:100%;min-width:0;padding:8px 5px}#game-screen .canvas-caption span:first-child{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}#game-screen .canvas-caption span:last-child{white-space:nowrap}#result{padding:18px;gap:12px}#result button{font-size:14px;padding:10px}}
 @media(max-height:460px){#game-screen header{min-height:40px}#game-screen .brand-emblem{display:none}#game-screen .top-actions button{min-height:34px;padding:5px 10px}#game-screen .canvas-caption{display:none}#game-screen .canvas-wrap{border-width:4px;padding:4px 8px 0}#game-screen .tools button{min-height:36px;padding:5px 12px}#game-screen .level-heading h2{font-size:18px}#game-screen .star{font-size:20px}#game-screen .tools{margin-top:6px}#result{max-height:calc(100dvh - 16px)}}
+
+/* Keep the painting square while the surrounding play area fits the viewport. */
+#game-screen .board-space{flex:1 1 0;min-height:0;min-width:0;container-type:size;display:flex;align-items:center;justify-content:center}
+#game-screen .board-space #board{height:100%}
+#game-screen .board-space #board.puzzle-board{flex:none;width:min(100cqw,100cqh);height:min(100cqw,100cqh);aspect-ratio:1;margin:auto}
+#game-screen .puzzle-board .piece.tile{width:28%;height:28%}
+#game-screen .canvas-back .piece.tile{width:29%;height:29%}
