@@ -1,0 +1,8 @@
+Use case: logo-brand
+Asset type: ONE standalone square app icon for the game Still / Life, 1024 x 1024 pixels.
+Primary request: An abstract oil-painted still-life symbol: one warm ivory sculptural arch embracing a terracotta semicircle, with one small ochre circle balanced above. Deliberate dark Prussian-blue negative space between the forms subtly suggests an S through the composition, without drawing any letter.
+Scene/backdrop: Deep Prussian blue square ground, edge to edge, with subtle brush texture.
+Style/medium: Refined museum/art-studio identity; three bold flat-ish impasto forms. Visible palette-knife oil-paint texture at large scale while preserving clean, simple, memorable silhouettes legible at 32 pixels.
+Composition/framing: Tight centered icon, balanced as a single emblem, with 10% safe margins on all sides. Strong figure-ground separation; keep the negative-space passage broad enough to survive downscaling.
+Color palette: Deep Prussian blue ground and negative space, warm ivory arch, terracotta semicircle, ochre circle.
+Constraints: Exactly these three painted forms. No text, no letters, no border, no screenshot, no UI, no mockup, no extra objects. Generate only one image.
